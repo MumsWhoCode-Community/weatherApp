@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url(./images/sunny.jpg);
+  font-family: 'Poppins', sans-serif;
+  color: #232323;
+}
+
+#overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(229, 235, 235, 0.5);
+  z-index: 2;
+}
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+#get-weather-btn {
+  background-color: rgb(34, 33, 33);
+  color: #fcfcfc;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+#location {
+  padding: 1rem 2rem;
+}
+#place-text {
+  background-color: rgba(72, 68, 68, 0.7);
+  z-index: -1;
+  margin: 2rem 10rem;
+  padding: 1rem;
+  color: beige;
+  border-radius: 25px;
+}
