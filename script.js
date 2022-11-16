@@ -27,7 +27,7 @@ const inputLocation = document.querySelector('.input-location');
 
 // a function that gets the coordinates
 let latitude, longitude;
-const api = '148cd6c159be29dbcb964ad4de945caa';
+const api = 'use your api key from openweathermap';
 
 getWeatherBtn.addEventListener('click', getWeatherByInput);
 
